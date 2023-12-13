@@ -1,20 +1,22 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { SafeAreaView, Image } from "react-native";
+import Card from "./components/Card";
 
-export default function App() {
-  return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
-  );
-}
+const App = () => {
+    const cardImage = require("./assets/myImage.jpg");
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+    return (
+        <SafeAreaView>
+            <Card
+                title={"Card Title!"}
+                description={"This is the card description."}
+            />
+            <Card
+                title={"Does this image look good?"}
+                description={"Yes, it does!."}
+                imageSource={cardImage}
+            />
+        </SafeAreaView>
+    );
+};
+
+export default App;
