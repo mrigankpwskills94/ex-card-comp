@@ -12,10 +12,4 @@ To get started, follow the installation instructions to integrate the card compo
 
 Feel free to explore and modify the provided styles in the `Card.js` file to better suit your application's design. This exercise aims to empower you to create engaging user interfaces with minimal effort.
 
-## Contribution
-
-If you encounter any issues, have suggestions, or want to contribute improvements to the React Native Card Component, please feel free to open an issue or submit a pull request. Your feedback and contributions are highly valued.
-
-Thank you for choosing this card component for your React Native projects. Happy coding! 🚀
-
 ![cardImg](https://github.com/mrigankpwskills94/ex-card-comp/assets/142077988/2975d73b-822c-4f07-9b5a-972631b48018)
